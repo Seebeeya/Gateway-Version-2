@@ -1,0 +1,224 @@
+body {
+    background: linear-gradient(-45deg, darkred, black);
+  
+  }
+  
+  /* Navigation Bar */
+  header ul a {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    list-style: none;
+    padding: 15px;
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-family: papyrus;
+    text-transform: capitalize;
+  }
+  
+  .link ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  
+  .link ul li a {
+    padding: 15px;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-family: papyrus;
+    text-transform: lowercase;
+  }
+  
+  /* Hero Image */
+  
+  .image {
+    background-image: url("soul-hero-image\ \(1\)\ \(1\).webp");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-bottom: 10px;
+  }
+  
+  .subheading {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-family: papyrus;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 4px;
+    padding: 10px 20px 10px 10px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    color: darkred;
+  } 
+  
+  .button {
+    background-color: #4C120D;
+    color: #FFFF;
+    border: 2px solid #FFFF;
+    margin: 20px;
+    padding: 14px 27px;
+    border-radius: 4px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: papyrus;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    bottom: 10px;
+    left: 50%;
+    position: absolute;
+  }
+  
+  .button:hover {
+    background-color: black;
+    color: gold;
+  }
+  
+  /*Footer */
+  
+  .socialmedia {
+    text-align: center;
+  }
+  
+  #facebook,
+  #twitter,
+  #instagram,
+  #snapchat
+  {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: rebeccapurple;
+    color: white;
+  }
+  
+  .fa-snapchat {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  /* Contact Page */
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    text-transform: capitalize;
+  }
+  
+  input[type=submit] {
+    background-color: darkred;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+    color: gold;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /*Menu Page */
+  table, th, td {
+    height: 90px;
+    left: 10%;
+    margin: 20px auto;
+    position: static;
+    width: 85%;
+    font-size: 18px;
+  }
+  
+  thead th {
+    background: silver;
+    color: darkred;
+    font-family: papyrus;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+  }
+  th, td {
+    font-family: papyrus;
+    font-weight: 400;
+    padding: 20px;
+    text-align: left;
+    width: 33%;
+  }
+  
+  h2, img {
+    margin: 10px;
+    font-size: 24px;
+    display: inline-block;
+  }
+  img, td colspan {
+    width: 270px;
+    height: 300px;
+    object-fit: cover;
+    display: inline-block;
+  } 
+  h1, id {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+    font-size: 45px;
+    font-family: papyrus;
+    text-transform: capitalize;
+  }
+  .noUnderline {
+    text-decoration: none;
+    color: darkred;
+  }
+  
+  .noUnderline:hover {
+    color: #F8220F;
+  }
